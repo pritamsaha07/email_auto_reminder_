@@ -12,5 +12,12 @@
     "pdf.js-extract": "^0.2.1",
     "tesseract.js": "^6.0.0",
     "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }
 }
